@@ -13,3 +13,13 @@ steps:
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'WIN_22.10.8438.32859'
+
+- task: UiPathTest@3
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'OrchestratorConn'
+    testProjectPath: '$(Build.SourcesDirectory)'
+    folderName: 'ManuLife'
+    testReportDestination: '$(Build.ArtifactStagingDirectory)\Output'
+    traceLevel: 'Verbose'
+    attachRobotLogs: true
