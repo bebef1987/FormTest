@@ -43,7 +43,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "f53b2473-d7a3-4527-95ab-e1e71e493abb",
-        "dataVariationFilePath": ".variations\\Login_Sheet1.json",
+        "dataVariationFilePath": ".variations\\TestData_Login.json",
         "testCaseType": "TestCase",
         "fileName": "TestLogin.xaml"
       },

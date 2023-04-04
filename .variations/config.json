@@ -1,11 +1,11 @@
 {
   "dataVariationFileInfo": [
     {
-      "filePath": ".variations\\Login_Sheet1.json",
+      "filePath": ".variations\\TestData_Courses.json",
       "dataVariationType": "File"
     },
     {
-      "filePath": ".variations\\TestData_Courses.json",
+      "filePath": ".variations\\TestData_Login.json",
       "dataVariationType": "File"
     }
   ]
