@@ -12,7 +12,7 @@ pool:
 steps:
 - task: UiPathInstallPlatform@3
   inputs:
-    cliVersion: 'WIN_22.10.8438.32859'
+    cliVersion: 'WIN_23.2.8467.25277'
 
 - task: UiPathTest@3
   inputs:
@@ -21,5 +21,5 @@ steps:
     testProjectPath: '$(Build.SourcesDirectory)'
     folderName: 'ManuLife'
     testReportDestination: '$(Build.ArtifactStagingDirectory)\Output'
-    traceLevel: 'Verbose'
+    traceLevel: 'Information'
     attachRobotLogs: true
