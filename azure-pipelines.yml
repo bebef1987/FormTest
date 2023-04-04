@@ -12,7 +12,7 @@ pool:
 steps:
 - task: UiPathInstallPlatform@3
   inputs:
-    cliVersion: 'WIN_23.2.8467.25277'
+    cliVersion: 'WIN_22.10.8438.32859'
 
 - task: UiPathTest@3
   inputs:
