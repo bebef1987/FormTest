@@ -1,1 +1,0 @@
-gcim win32_process | select commandline
