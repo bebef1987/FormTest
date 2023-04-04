@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1072.8,2384.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1200.8,2384.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCaseDiscoReportGeneration_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="50">
@@ -140,9 +140,15 @@
       </ui:LogMessage>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReusableFlows\Login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:String" x:Key="UserName">[UserName]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="Password">[Password]</InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="DataBase">[DataBase]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="UserName">
+            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="UserName" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="Password">
+            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="Password" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="DataBase">
+            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="DataBase" />
+          </InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
@@ -169,7 +175,7 @@
               <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,288" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_3" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                 <uta:VerifyControlAttribute.ActivityToTest>
                   <ActivityAction>
-                    <uix:NCheckState DisplayName="Check App State 'CourseNo'" sap:VirtualizedContainerService.HintSize="552,250.39999999999998" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="3a6ef4f6-f028-4d7e-b008-2ac75e277996" Version="V3">
+                    <uix:NCheckState DisplayName="Check App State 'CourseNo'" EnableIfExists="False" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="333.6,178.4" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="3a6ef4f6-f028-4d7e-b008-2ac75e277996" Version="V3">
                       <uix:NCheckState.Exists>
                         <OutArgument x:TypeArguments="x:Boolean">
                           <VariableReference x:TypeArguments="x:Boolean">

@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/bebeorg/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "f22b4f50-ca1b-0000-2a1c-0b452f966660",
+    "name": "FormsTest",
+    "key": "FTP"
+  }
 }

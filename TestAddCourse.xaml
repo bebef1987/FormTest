@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>936,4119.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1200.8,4296</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestAddCourse_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -96,7 +96,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestAddCourse" sap:VirtualizedContainerService.HintSize="754.4,4054.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestAddCourse" sap:VirtualizedContainerService.HintSize="754.4,4231.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Decimal" Name="CourseID" />
       <Variable x:TypeArguments="x:String" Name="Description" />
@@ -111,7 +111,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="692,2009.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="692,2226.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="Name" />
         <Variable x:TypeArguments="x:String" Name="LastName" />
@@ -123,7 +123,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReusableFlows\Login.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReusableFlows\Login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="UserName">student</InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="Password">oracle</InArgument>
@@ -136,7 +136,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
-      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="9999" Min="1000" Output="[CourseID]">
+      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="9999" Min="1000" Output="[CourseID]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -144,7 +144,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:RandomNumber>
-      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="GivenName_1">
+      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="GivenName_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -152,7 +152,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:GivenName>
-      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="LastName_1" LastNameResult="[LastName]">
+      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="LastName_1" LastNameResult="[LastName]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -160,7 +160,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <utat:RandomValue DisplayName="Random Value" FilePath="TestData\courses.csv" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="RandomValue_2" Value="[CourseName]">
+      <utat:RandomValue DisplayName="Random Value" FilePath="TestData\courses.csv" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="RandomValue_2" Value="[CourseName]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -168,7 +168,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:RandomValue>
-      <utat:Address AddressResult="[Address]" City="&lt;Random City&gt;" Country="&lt;Random Country&gt;" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="Address_1">
+      <utat:Address AddressResult="[Address]" City="&lt;Random City&gt;" Country="&lt;Random Country&gt;" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="Address_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -176,7 +176,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:Address>
-      <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[Description]</OutArgument>
         </Assign.To>
@@ -184,9 +184,9 @@
           <InArgument x:TypeArguments="x:String">[String.Format("{0} with Profesor {1} {2}",CourseName, Name, LastName )]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Format(&quot;Address {0}, {1}, {2}, {3}&quot;, Address(&quot;StreetName&quot;), Address(&quot;StreetNumber&quot;),Address(&quot;City&quot;),Address(&quot;Country&quot;) )]" />
-      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="433.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_1" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[CreatedDate]" />
-      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="GivenName_2">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Format(&quot;Address {0}, {1}, {2}, {3}&quot;, Address(&quot;StreetName&quot;), Address(&quot;StreetNumber&quot;),Address(&quot;City&quot;),Address(&quot;Country&quot;) )]" />
+      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_1" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[CreatedDate]" />
+      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="GivenName_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -194,7 +194,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:GivenName>
-      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="LastName_2" LastNameResult="[LastName]">
+      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="LastName_2" LastNameResult="[LastName]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -202,7 +202,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[CreatedBy]</OutArgument>
         </Assign.To>
@@ -210,8 +210,8 @@
           <InArgument x:TypeArguments="x:String">[String.Format("{0} {1}", Name, LastName)]</InArgument>
         </Assign.Value>
       </Assign>
-      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="433.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_2" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[ModifiedDate]" />
-      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="GivenName_3">
+      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_2" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[ModifiedDate]" />
+      <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="GivenName_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -219,7 +219,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:GivenName>
-      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="433.6,24.8" sap2010:WorkflowViewState.IdRef="LastName_3" LastNameResult="[LastName]">
+      <utat:LastName DisplayName="Last Name" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="LastName_3" LastNameResult="[LastName]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -227,7 +227,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_3">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[ModifiedBy]</OutArgument>
         </Assign.To>
@@ -235,7 +235,7 @@
           <InArgument x:TypeArguments="x:String">[String.Format("{0} {1}", Name, LastName)]</InArgument>
         </Assign.Value>
       </Assign>
-      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="433.6,194.4" sap2010:WorkflowViewState.IdRef="RandomNumber_2" Max="100000" Min="1000" Output="[Cost]" />
+      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="337.6,224" sap2010:WorkflowViewState.IdRef="RandomNumber_2" Max="100000" Min="1000" Output="[Cost]" />
     </Sequence>
     <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="692,1027.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
@@ -243,35 +243,49 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="ToolBar" sap:VirtualizedContainerService.HintSize="483.2,915.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="d7f20377-4348-4143-bb1f-6129644cf334" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="ToolBar" sap:VirtualizedContainerService.HintSize="433.6,915.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="d7f20377-4348-4143-bb1f-6129644cf334" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,624" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,624" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ClickType="Single" DisplayName="Click 'Insert Record'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick ClickType="Single" DisplayName="Click 'Insert Record'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="OmDwO6N0REeOsyQw3SscKw" DesignTimeRectangle="414, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Insert Record'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Insert Record' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Insert Record' role='push button' check:text='Insert Record' /&gt;" Guid="4380ad01-0e2a-4f70-9e74-4f7f72da5593" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEJSURBVEhL7ZLBEYIwEEXTU3qiGSvI2QNV0AE3W7AE75HP8Jk18zdiBD3oMm8m2YR92UDo+z5/g3C53vI3+It3YxxHmSeHiVNKMk92F0MIuq6T62QXMWUE19wsRgGVJ0pGII0xyveIK1Y/R02GOYQA42Yxr8qKQE1mo1ncIrPxVsevyAKfFOc59qq6xBXjxM9kPBSC0jC9h0Be1SVVsQp7AzZKMULVJZvEVob8Q5f2WcTrfBqr2qAqLmX85mAVQ+bRIua3tTIehNc8d2dZZBZVG1TFpQxjrpexdj/JGLZeiSum0Mo8EFas9pS4YnSr8opZvOF6LdWOVV5hQ60rXPHR/KD4dB7y5xnyHdVCSlFwicVAAAAAAElFTkSuQmCC" InformativeScreenshot="952fd47b34485195eba37fe6f3bfd18a.png" Reference="QjZO42r3LEqWki_GAjfYLg/1HXI4sf5qkiBiis_ZUgwZA" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\SetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="387.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ReusableFlows\SetCourseInfo.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\SetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ReusableFlows\SetCourseInfo.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="ModifiedDate">[ModifiedDate.ToString("dd-MMM-yyyy")]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="CourseNo">[CInt( CourseID).ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="Description">[Description]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="Cost">[Cost.ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="CreatedBy">[CreatedBy]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="CreatedDate">[CreatedDate.ToString("dd-MMM-yyyy")]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="ModifiedBy">[ModifiedBy]</InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="ModifiedDate">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="ModifiedDate.ToString(&quot;dd-MMM-yyyy&quot;)" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="CourseNo">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CInt( CourseID).ToString" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="Description">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="Description" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="Cost">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="Cost.ToString" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="CreatedBy">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CreatedBy" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="CreatedDate">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CreatedDate.ToString(&quot;dd-MMM-yyyy&quot;)" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="ModifiedBy">
+                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="ModifiedBy" />
+                  </InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
-              <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="IvdEnketrEu0X8XN-pzyXw" DesignTimeRectangle="16, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Save' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Save' role='push button' check:text='Save' /&gt;" Guid="b162d191-ec2b-4c49-9910-62d3a1a87abc" InformativeScreenshot="49c604ae4d0a11d4ca6c661b8b934f57.png" Reference="QjZO42r3LEqWki_GAjfYLg/eAEJCy3UF0mhn4BSYOzlgw" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
                 </uix:NClick.Target>
@@ -284,25 +298,25 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="692,825.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="692,785.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Courses" sap:VirtualizedContainerService.HintSize="629.6,713.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="cf628a98-285f-41ad-a879-68dcd35e7afd" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Courses" sap:VirtualizedContainerService.HintSize="629.6,673.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="cf628a98-285f-41ad-a879-68dcd35e7afd" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,422.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,382.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,307.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Contains" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,267.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Contains" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                 <uta:VerifyControlAttribute.ActivityToTest>
                   <ActivityAction>
                     <uix:NGetText DisplayName="Get Text 'Status'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="cf628a98-285f-41ad-a879-68dcd35e7afd" Version="V3">

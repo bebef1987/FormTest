@@ -3,7 +3,7 @@
   "description": "New Test Automation Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.System.Activities": "[22.10.5]",
     "UiPath.Testing.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[22.10.5]"
   },
@@ -41,33 +41,23 @@
     },
     "fileInfoCollection": [
       {
-        "templateType": "ExecutionTemplate",
-        "fileName": ".templates\\TestFramework.xaml"
-      },
-      {
         "editingStatus": "Publishable",
         "testCaseId": "f53b2473-d7a3-4527-95ab-e1e71e493abb",
         "dataVariationFilePath": ".variations\\Login_Sheet1.json",
-        "executionTemplatePath": ".templates\\TestFramework.xaml",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "TestLogin.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "34233d75-d3be-43a3-8154-697406743faf",
         "dataVariationFilePath": ".variations\\TestData_Courses.json",
-        "executionTemplatePath": ".templates\\TestFramework.xaml",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "TestAddCourse.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "c816b46b-b443-4c0b-89f4-cde8bdf82d12",
-        "executionTemplatePath": ".templates\\TestFramework.xaml",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "TestGetAllCourses.xaml"
       },
       {
@@ -81,18 +71,81 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "37bf8a2a-fb23-43d8-9dad-73ad86eb77f3",
-        "dataVariationFilePath": ".variations\\Course.json",
-        "executionTemplatePath": ".templates\\TestFramework.xaml",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
         "fileName": "TestSearchForCourseNumer.xaml"
       }
     ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestLogin.xaml",
+      "uniqueId": "f53b2473-d7a3-4527-95ab-e1e71e493abb",
+      "input": [
+        {
+          "name": "Username",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Password",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "Database",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedResult",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "TestAddCourse.xaml",
+      "uniqueId": "34233d75-d3be-43a3-8154-697406743faf",
+      "input": [
+        {
+          "name": "TestNo",
+          "type": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "TestGetAllCourses.xaml",
+      "uniqueId": "c816b46b-b443-4c0b-89f4-cde8bdf82d12",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestSearchForCourseNumer.xaml",
+      "uniqueId": "37bf8a2a-fb23-43d8-9dad-73ad86eb77f3",
+      "input": [
+        {
+          "name": "courseTestData",
+          "type": "System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": "CoverageMergeHelperWorkflow.xaml"
 }
