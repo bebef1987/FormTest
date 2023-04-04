@@ -1,0 +1,16 @@
+﻿{
+  "Id": "6GSuBDQx-kue_itwvouMVw",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/6GSuBDQx-kue_itwvouMVw",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/gRmxZX2rWkOMR9LRGwl1qA",
+  "Name": "Enter Query",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-04-03T09:28:44.7546053Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:47:56.4452938Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VhYEfNfw1ke3Nm7Gndlukg" Reference="QjZO42r3LEqWki_GAjfYLg/yYTNOCq1xkymAvfoayLmDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="324, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Previous Record'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Previous Record' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Previous Record' role='push button' check:text='Previous Record' /&gt;" Guid="6fd7a32e-d817-485b-a1c5-499c71723c43" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAB8SURBVEhL7dKxDYAgEIXhN63LOIG1BVMwBSs4gv3JSUHAC4mYPAop/uqKL5c7OOdkRAjHKSOaMK0Jvw7Y7qxZq08wsMQkBnPeqhtOmypKhEuUBD9RApxvSodRgSRYs3Hac9U4CdZKnAhrGSfDWsIHwL1NmNYP4XX3ws/LBcZskFTnDkL5AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="16adb2b8a7efe107bdb015ed160ed7d2.png" xmlns="">0SScGX3kCf0qYd2X-yE91_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

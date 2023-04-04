@@ -1,0 +1,16 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\Login_Sheet1.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\TestData_Courses.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\Course.json",
+      "dataVariationType": "TestDataQueue"
+    }
+  ]
+}

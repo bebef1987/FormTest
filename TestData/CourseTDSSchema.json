@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "CourseNo": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Cost": {
+      "type": "string"
+    },
+    "CreatedBy": {
+      "type": "string"
+    },
+    "CreatedDate": {
+      "type": "string"
+    },
+    "ModifiedBy": {
+      "type": "string"
+    },
+    "ModifiedDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "CourseNo",
+    "Description",
+    "Cost",
+    "CreatedBy",
+    "CreatedDate",
+    "ModifiedBy",
+    "ModifiedDate"
+  ]
+}

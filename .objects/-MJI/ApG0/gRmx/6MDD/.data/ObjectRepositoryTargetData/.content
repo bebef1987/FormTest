@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YUmzxCTn00uQQy2bSzwIpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="466, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Lock Record'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Lock Record' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Lock Record' role='push button' check:text='Lock Record' /&gt;" Guid="f1f33cb8-6f54-4adb-8fae-d899b9744b2d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFHSURBVEhL7ZLBcYMwEEXVEz3RTCrQOQeqcAfc0kJKyF3hyXzNamdhguKxD8mfeWN5EftYQVqWpbyC9PH5VV7Bv/gyPqrnnLt9nl+JCYJ5niusbS26RwyLCc2VdV0rqg2Lz46K2OlSSlWEmDWZpim8VxyKaeJrSCTUZIjYS11yXfP3Ww7FOirJBI2JnTDPUyfW1L6n5fSorUwQRJ0k3+UPEasJaBpSp9so6/1LrvVNDFZc92yJesOhmI9DjRErkjZ2qcQ6Aa6xN+oNp+IoTSyhf4D9P/t4iKg3/Eis4yZ24nakTiiGxXq3WnfiTUZjK7dSGBLr3eoDg068T0fzNrGTD4t1xKxB4ibbRXZtGRJLyK+tK2osqZ+Ya0Nipo3qQrEPYIWsSXQvnE4c1T2KpBKSaL84FF/FJrrueZj4Kn9Q/PZ+K8/nVr4BIRQUq/X8ORYAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c57c2ca7543164499c560eacec8c7f55.png" xmlns="">0qtYHnlkZN0WnJWmPBxsizQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

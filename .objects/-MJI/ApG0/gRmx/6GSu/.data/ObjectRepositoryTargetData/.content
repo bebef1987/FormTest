@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wHDN2fF0AUaZDgC7Jo7wKg" Reference="QjZO42r3LEqWki_GAjfYLg/6GSuBDQx-kue_itwvouMVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="208, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Enter Query'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Enter Query' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Enter Query' role='push button' check:text='Enter Query' /&gt;" Guid="a2b55a4b-2f7b-4fe1-bc35-587271603387" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADsSURBVEhL7ZbLDcMgEES3p/RET5STuy9RWohcQe7EA5poRRaCP+BDMtKTbQQ8du2D5XqbwxnI/fEMZ/AXf+CnKTjvIxfn3mDcmt9KVUwhJIThQax1LRTFJaEewxwRMdd/oyjWLbWElHYRs50U8TB6vIuY1bFqHkBXPqzVa2LtS1a3GhFBpS2Uu7G61Yi4dK3FL3M3i7VUt1qLp2UMz6lCF5+RzWKg5cCqmML8fpcYQIgDYBOAlFoNKeTIbnEOkotju5UUGSLOpcgQsZVBFUOSPiqmmxjvtcbhYsBNW7DWg03iI/hBsfWz3Z85vACItVH61qvWUwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a42374f210fb0ab212181db3450f128d.png" xmlns="">0l0BIL5Ssk02S2UCFPKqPyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

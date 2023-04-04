@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o6Se2IcXxUu7-DIJ999plg" Reference="QjZO42r3LEqWki_GAjfYLg/w5NBX7R07EiE8IONbQhnbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="310, 320, 206, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="******" FullSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Password:' role='password text' /&gt;" FuzzySelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Password:' role='password text' /&gt;" Guid="60d1eb08-3d1a-4693-af94-f74a2b615cba" ImageBase64="" IsResponsive="True" SearchSteps="Selector, FuzzySelector">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="234, 323, 72, 20" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Password:' role='label' /&gt;" FuzzySelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Password:' role='label' check:text='Password:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAYCAYAAABQiBvKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHtSURBVFhH7ZZNbgIxDIV7roijILgHSHONEQtugcSGMyCx4wrDgm7KOk3sOHEmnp+MyoLKi6eSeJw8f3Gifj2+X1Y1XwqsUgqsUgqsUgqsUgqsUgqsUhFY97zbdmPsarUqZMzWtrefIvm/qDs3rsbGnp7TNRbA1od78dH1sJ294Cfqz4F1z4vdGWN3ZwW2CFh3O9q1G/Nry/OkOIc9FJc8+GL6+ae9sWZ/wXjvKaF5iME+jW3dDYFYgEL14Jx7bg4J2BgHr1nAwGBvM14Av7JoMn/zCBBAmYjDWpujvYbT9nuvN9voi3xywH14cRzWzSAG/2k9HC/uMDopLr5Yd7vHYmIug4C/hzeviaOn0AEBYhYXrhKfw2/zw5Vyat7oWR0mia5Kgpq6xndFnGenSxqLk4/YjQDKdwEWxDsQig+/Yz5A4oeXd3O/g1POm4ClFk5GJGP8WwRaGhqK0xsFQPzfCDH3+BnAJJN+TgAW4wEMvxpjcdqjdeBoDgrdN+47dlDCvjiHxUvAeHxsbkjLgHHTYCp1nGiIn/pEHMZSF7s86ER2WOSZrnUxloDR2jGH9noTMK/sDQJDZYdQPH3DTE/EveBaZnBwj74/8h3XCiAgJgDDHFwr7r3k3wrVPCmwSimwSimwSimwSimwKr3sL0vtXa2Q+DDtAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8cf68d6b2ce4ebdd26b1e50e84047a3.png" xmlns="">0S4GFfiuKiEWUYamajmldSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

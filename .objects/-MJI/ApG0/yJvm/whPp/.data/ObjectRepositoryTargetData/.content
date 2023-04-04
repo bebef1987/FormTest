@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XfUH5wkN0UuSogiuPgufug" Reference="QjZO42r3LEqWki_GAjfYLg/whPpkORQeEqG1XW0ZxXguA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="302, 390, 70, 31" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="Click" FullSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Connect ALT C' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;&lt;java name='Logon' role='internal frame' /&gt;&lt;java name='Connect ALT C' role='push button' /&gt;" Guid="0bb3631b-7a42-4b98-9fcb-24faa73f5b11" ImageBase64="" SearchSteps="Selector, FuzzySelector">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ffe54d89d084dbd628d97dc36bcbd40.png" xmlns="">0PKvuIXotIEK5qsro8CRCxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

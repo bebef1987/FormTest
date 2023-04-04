@@ -1,0 +1,15 @@
+﻿{
+  "Id": "rf7lnseL8EyFYHuknMwYWA",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/rf7lnseL8EyFYHuknMwYWA",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/ApG0R2VYSEeRrzRwg7beGg",
+  "Name": "Courses",
+  "Type": "Screen",
+  "Created": "2023-04-03T09:25:57.9580881Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:26:10.7294339Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

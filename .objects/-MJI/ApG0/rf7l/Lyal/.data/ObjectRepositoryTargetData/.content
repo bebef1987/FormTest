@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YR9RwJSj5UiwAZshByxKpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="130, 261, 135, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'29-APR-2016'" FullSelectorArgument="&lt;java name='Courses' role='internal frame' /&gt;&lt;java name='Created Date' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Courses' role='internal frame' /&gt;&lt;java name='Created Date' role='text' /&gt;" Guid="a94085f8-9679-4bfb-a930-6f8e5bab7db0" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="20e69ecafc506c2c07f66018c7503a50.png" xmlns="">0y2liUiObYESqO2blSwOssQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

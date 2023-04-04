@@ -1,0 +1,16 @@
+﻿{
+  "Id": "MvSSeVJaA0Wel41R-a9_BQ",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/MvSSeVJaA0Wel41R-a9_BQ",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/rf7lnseL8EyFYHuknMwYWA",
+  "Name": "Cost",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-04-03T09:26:49.1452819Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:29:07.3585033Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

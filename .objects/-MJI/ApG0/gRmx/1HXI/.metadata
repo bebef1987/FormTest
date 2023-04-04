@@ -1,0 +1,16 @@
+﻿{
+  "Id": "1HXI4sf5qkiBiis_ZUgwZA",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/1HXI4sf5qkiBiis_ZUgwZA",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/gRmxZX2rWkOMR9LRGwl1qA",
+  "Name": "Insert Record",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-04-03T09:45:45.8650998Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:45:59.8367404Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

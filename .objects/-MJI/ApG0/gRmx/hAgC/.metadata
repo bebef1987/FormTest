@@ -1,0 +1,16 @@
+﻿{
+  "Id": "hAgC0Wzq5k2_OmwIeSAT_A",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/hAgC0Wzq5k2_OmwIeSAT_A",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/gRmxZX2rWkOMR9LRGwl1qA",
+  "Name": "Cancel Query",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-04-03T09:48:15.355096Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:48:34.711574Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

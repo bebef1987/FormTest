@@ -1,0 +1,16 @@
+﻿{
+  "Id": "hKcjuxiGGUqH9uSJi2ZYWw",
+  "Reference": "QjZO42r3LEqWki_GAjfYLg/hKcjuxiGGUqH9uSJi2ZYWw",
+  "ParentRef": "QjZO42r3LEqWki_GAjfYLg/rf7lnseL8EyFYHuknMwYWA",
+  "Name": "CourseNo",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-04-03T09:27:02.4512891Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-04-03T09:30:27.3695545Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

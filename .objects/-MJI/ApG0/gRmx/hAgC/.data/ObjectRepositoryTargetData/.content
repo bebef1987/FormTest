@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J5DY9MKN-kyO_bWxmlxoyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="260, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Cancel Query'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Cancel Query' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Cancel Query' role='push button' check:text='Cancel Query' /&gt;" Guid="047db1bd-7c60-4467-95cb-c2e013c37896" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAENSURBVEhL7ZIxDoMwDEU5OnuzcQCGDixcgZGNrQdgqThBZ1L9SL+y3CQNkIahHZ5ILMcvdqi6rrNnUN3uD3sGf/Eb8zzbcRwdfd+/QFzmtW1rjTHBvSYqphASsq6rgxdBHmOUfZKCoDgklDHk1HXt8rVc19MExXKkPiGlFIMsHUPKcVLEy8g4xZSldh4Vszt2zQvIziGmjGf13sfmUbNoCr66ZPOoUbBpmiTk+2s2jxpfXiDGNE37xVIqRy3Fy7K4PTrEz4T9ITGQcuDrmEK9PiQGEEKEIkCLJZBCjvVhsQZFtRjjlVJQRKyloIjYRxGx/KnI18R41xjZxYBFU/CdB7vEOfhB8eU62PIM9glHRbBOLBVEbAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="67b59c5cf8f4f4c3af0cf723b857c458.png" xmlns="">0eTKNJwRozUub4M8sxLOBPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

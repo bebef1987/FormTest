@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eR9kuUpCzk-1b12IFVbNXw" Reference="QjZO42r3LEqWki_GAjfYLg/7LYMkB3hFkOd1q-8I9eVQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="103, 152, 460, 19" DesignTimeScaleFactor="0.800000011920929" ElementType="InputBox" FriendlyName="'Dutch Grammar'" FullSelectorArgument="&lt;java name='Description' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Courses' role='internal frame' /&gt;&lt;java name='Description' role='text' /&gt;" Guid="5657cd56-8a55-4c88-ad2c-80953c7d04bd" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5819065aab2422e4f810b01c49a34667.png" xmlns="">0-Je6IeA4Z0S6CRHcMlbYEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

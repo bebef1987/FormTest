@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v1GK-zr8sEe7V9C79o1z4w" Reference="QjZO42r3LEqWki_GAjfYLg/dwcaqWPLLUGKwP1VqJUtTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="103, 245, 108, 19" DesignTimeScaleFactor="0.800000011920929" ElementType="InputBox" FriendlyName="'29-APR-2016'" FullSelectorArgument="&lt;java name='Modified Date' role='text' /&gt;" FuzzySelectorArgument="&lt;java name='Courses' role='internal frame' /&gt;&lt;java name='Modified Date' role='text' /&gt;" Guid="751b6206-af51-4569-bfd0-5ea8d287aef6" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f4041cbd818e7dc8c5f8ececad623885.png" xmlns="">0H3RQKoekSUmRredJ8dGAzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

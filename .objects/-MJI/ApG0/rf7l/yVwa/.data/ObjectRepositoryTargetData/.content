@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="i5f5l4v-aUeJHFUIjMNB4w" Reference="QjZO42r3LEqWki_GAjfYLg/yVwaLXsDOkKjCAFIf_0k_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="19, 549, 697, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'FRM-40508: ORACLE'" FullSelectorArgument="&lt;java cls='StatusBar' hasTableAncestor='0' role='status bar' idx='1' /&gt;&lt;java name='*' role='label' /&gt;" FuzzySelectorArgument="&lt;java cls='StatusBar' hasTableAncestor='0' role='status bar' /&gt;&lt;java name='*' role='label' check:text='FRM-40508: ORACLE error: unable to INSERT record.' /&gt;" Guid="b2f23076-cf8e-4f4a-8f7d-7fe30909afe0" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="61b17f159005b171146c459704841374.png" xmlns="">0L7xY_Xts6kudBOcvB9qHZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
