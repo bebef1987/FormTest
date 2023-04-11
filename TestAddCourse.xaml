@@ -9,7 +9,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1200.8,4296</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1072.8,4385.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestAddCourse_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -98,9 +98,12 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestAddCourse" sap:VirtualizedContainerService.HintSize="754.4,4231.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestAddCourse" sap:VirtualizedContainerService.HintSize="754.4,4320.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Decimal" Name="CourseID" />
       <Variable x:TypeArguments="x:String" Name="Description" />
@@ -115,7 +118,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="692,2226.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="692,2316" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="Name" />
         <Variable x:TypeArguments="x:String" Name="LastName" />
@@ -140,10 +143,10 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
-      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="9999" Min="1000" Output="[CourseID]">
+      <utat:RandomNumber Decimals="{x:Null}" DisplayName="CourseID " sap:VirtualizedContainerService.HintSize="337.6,224" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="999" Min="100" Output="[CourseID]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -164,10 +167,10 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <utat:RandomValue DisplayName="Random Value" FilePath="TestData\courses.csv" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="RandomValue_2" Value="[CourseName]">
+      <utat:RandomValue DisplayName="CourseName Value" FilePath="TestData\courses.csv" sap:VirtualizedContainerService.HintSize="337.6,142.4" sap2010:WorkflowViewState.IdRef="RandomValue_2" Value="[CourseName]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -180,16 +183,16 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:Address>
-      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign DisplayName="Desciption" sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[Description]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[String.Format("{0} with Profesor {1} {2}",CourseName, Name, LastName )]</InArgument>
+          <InArgument x:TypeArguments="x:String">[String.Format("{0}, Pr. {1} {2}",CourseName, Name, LastName )]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="337.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Format(&quot;Address {0}, {1}, {2}, {3}&quot;, Address(&quot;StreetName&quot;), Address(&quot;StreetNumber&quot;),Address(&quot;City&quot;),Address(&quot;Country&quot;) )]" />
-      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_1" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[CreatedDate]" />
+      <ui:LogMessage DisplayName="Address Message" sap:VirtualizedContainerService.HintSize="337.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Format(&quot;Address {0}, {1}, {2}, {3}&quot;, Address(&quot;StreetName&quot;), Address(&quot;StreetNumber&quot;),Address(&quot;City&quot;),Address(&quot;Country&quot;) )]" />
+      <utat:RandomDate DisplayName="Created Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_1" MaxDate="[DateAndTime.Today]" MinDate="2000-01-01" Output="[CreatedDate]" />
       <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="GivenName_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -206,7 +209,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign DisplayName="Created By" sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[CreatedBy]</OutArgument>
         </Assign.To>
@@ -214,7 +217,7 @@
           <InArgument x:TypeArguments="x:String">[String.Format("{0} {1}", Name, LastName)]</InArgument>
         </Assign.Value>
       </Assign>
-      <utat:RandomDate DisplayName="Random Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_2" MaxDate="2023-04-03" MinDate="2019-04-03" Output="[ModifiedDate]" />
+      <utat:RandomDate DisplayName="Modified Date" sap:VirtualizedContainerService.HintSize="337.6,194.4" sap2010:WorkflowViewState.IdRef="RandomDate_2" MaxDate="[DateAndTime.Today]" MinDate="[CreatedDate]" Output="[ModifiedDate]" />
       <utat:GivenName DisplayName="Given Name" GivenNameResult="[Name]" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="GivenName_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -231,7 +234,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </utat:LastName>
-      <Assign sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign DisplayName="ModifiedBy" sap:VirtualizedContainerService.HintSize="337.6,60" sap2010:WorkflowViewState.IdRef="Assign_3">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[ModifiedBy]</OutArgument>
         </Assign.To>
@@ -239,7 +242,14 @@
           <InArgument x:TypeArguments="x:String">[String.Format("{0} {1}", Name, LastName)]</InArgument>
         </Assign.Value>
       </Assign>
-      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Random Number" sap:VirtualizedContainerService.HintSize="337.6,224" sap2010:WorkflowViewState.IdRef="RandomNumber_2" Max="100000" Min="1000" Output="[Cost]" />
+      <utat:RandomNumber Decimals="{x:Null}" DisplayName="Cost" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="RandomNumber_2" Max="100000" Min="1000" Output="[Cost]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </utat:RandomNumber>
     </Sequence>
     <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="692,1027.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>

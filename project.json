@@ -3,12 +3,21 @@
   "description": "New Test Automation Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.DataService.Activities": "[23.4.0]",
     "UiPath.System.Activities": "[22.10.5]",
     "UiPath.Testing.Activities": "[22.10.3]",
     "UiPath.UIAutomation.Activities": "[22.10.5]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "FormTest",
+      "uniqueReference": "RrcHB4M0cPGMkWi+b2+rPGKVsCiooBH8KVCpyCPdbto="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "22.12.0.0",
   "projectVersion": "1.0.134318213",
@@ -71,8 +80,27 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "37bf8a2a-fb23-43d8-9dad-73ad86eb77f3",
+        "dataVariationFilePath": ".variations\\Course.json",
         "testCaseType": "TestCase",
         "fileName": "TestSearchForCourseNumer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ea17d22b-3921-4385-8b77-618ae2f54524",
+        "testCaseType": "TestCase",
+        "fileName": "TestAddToDb.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "89c3ead4-e83d-4e13-a3a0-70c2b4d57221",
+        "testCaseType": "TestCase",
+        "fileName": "TestAddToDataService.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9a1d9886-737d-4e17-b235-431d5a018cdf",
+        "testCaseType": "TestCase",
+        "fileName": "TestCaseAddCourseData.xaml"
       }
     ],
     "modernBehavior": true

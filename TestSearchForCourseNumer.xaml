@@ -1,11 +1,11 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestSearchForCourse" this:TestSearchForCourse.courseTestData="[System.Text.Json.JsonSerializer.Deserialize(Of IDictionary( Of System.String,System.Object))(&quot;{&quot;&quot;CourseNo&quot;&quot;:&quot;&quot;5963&quot;&quot;,&quot;&quot;Description&quot;&quot;:&quot;&quot;Art History with Profesor Joseluis Mormile, Addres&quot;&quot;,&quot;&quot;Cost&quot;&quot;:&quot;&quot;18013&quot;&quot;,&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;Emerson Ohmart&quot;&quot;,&quot;&quot;CreatedDate&quot;&quot;:&quot;&quot;31-OCT-2022&quot;&quot;,&quot;&quot;ModifiedBy&quot;&quot;:&quot;&quot;Qafe&quot;&quot;,&quot;&quot;ModifiedDate&quot;&quot;:&quot;&quot;03-APR-2023&quot;&quot;}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestSearchForCourse" this:TestSearchForCourse.course="[System.Text.Json.JsonSerializer.Deserialize(Of System.Collections.Generic.IDictionary(Of String, Object))(&quot;{&quot;&quot;CourseNo&quot;&quot;:&quot;&quot;5963&quot;&quot;,&quot;&quot;Description&quot;&quot;:&quot;&quot;Art History with Profesor Joseluis Mormile, Addres&quot;&quot;,&quot;&quot;Cost&quot;&quot;:&quot;&quot;18013&quot;&quot;,&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;Emerson Ohmart&quot;&quot;,&quot;&quot;CreatedDate&quot;&quot;:&quot;&quot;31-OCT-2022&quot;&quot;,&quot;&quot;ModifiedBy&quot;&quot;:&quot;&quot;Qafe&quot;&quot;,&quot;&quot;ModifiedDate&quot;&quot;:&quot;&quot;03-APR-2023&quot;&quot;}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="courseTestData" Type="InArgument(scg:IDictionary(x:String, x:Object))" />
+    <x:Property Name="course" Type="InArgument(scg:IDictionary(x:String, x:Object))" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>936,3410.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1072.8,3577.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestSearchForCourse_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -102,19 +102,19 @@
       <AssemblyReference>System.Text.Json</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestSearchForCourse" sap:VirtualizedContainerService.HintSize="608,3345.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestSearchForCourse" sap:VirtualizedContainerService.HintSize="558.4,3512.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="545.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="496,225.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="387.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReusableFlows\Login.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReusableFlows\Login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="UserName">student</InArgument>
           <InArgument x:TypeArguments="x:String" x:Key="Password">oracle</InArgument>
@@ -122,35 +122,33 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="545.6,1067.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="496,1027.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="ToolBar" sap:VirtualizedContainerService.HintSize="483.2,955.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="3cf04ca5-61dd-45ea-8532-c5c94e150246" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="ToolBar" sap:VirtualizedContainerService.HintSize="433.6,915.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="3cf04ca5-61dd-45ea-8532-c5c94e150246" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,624" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,624" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ClickType="Single" DisplayName="Click 'Enter Query'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick ClickType="Single" DisplayName="Click 'Enter Query'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="wHDN2fF0AUaZDgC7Jo7wKg" DesignTimeRectangle="208, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Enter Query'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Enter Query' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Enter Query' role='push button' check:text='Enter Query' /&gt;" Guid="a2b55a4b-2f7b-4fe1-bc35-587271603387" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADsSURBVEhL7ZbLDcMgEES3p/RET5STuy9RWohcQe7EA5poRRaCP+BDMtKTbQQ8du2D5XqbwxnI/fEMZ/AXf+CnKTjvIxfn3mDcmt9KVUwhJIThQax1LRTFJaEewxwRMdd/oyjWLbWElHYRs50U8TB6vIuY1bFqHkBXPqzVa2LtS1a3GhFBpS2Uu7G61Yi4dK3FL3M3i7VUt1qLp2UMz6lCF5+RzWKg5cCqmML8fpcYQIgDYBOAlFoNKeTIbnEOkotju5UUGSLOpcgQsZVBFUOSPiqmmxjvtcbhYsBNW7DWg03iI/hBsfWz3Z85vACItVH61qvWUwAAAABJRU5ErkJggg==" InformativeScreenshot="a42374f210fb0ab212181db3450f128d.png" Reference="QjZO42r3LEqWki_GAjfYLg/6GSuBDQx-kue_itwvouMVw" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\SetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="387.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ReusableFlows\SetCourseInfo.xaml">
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\SetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ReusableFlows\SetCourseInfo.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:String" x:Key="ModifiedDate" />
-                  <InArgument x:TypeArguments="x:String" x:Key="CourseNo">
-                    <VisualBasicValue x:TypeArguments="x:String" ExpressionText="courseTestData(&quot;CourseNo&quot;).ToString" />
-                  </InArgument>
+                  <InArgument x:TypeArguments="x:String" x:Key="CourseNo">[course("CourseNo").ToString]</InArgument>
                   <InArgument x:TypeArguments="x:String" x:Key="Description" />
                   <InArgument x:TypeArguments="x:String" x:Key="Cost" />
                   <InArgument x:TypeArguments="x:String" x:Key="CreatedBy" />
@@ -158,7 +156,7 @@
                   <InArgument x:TypeArguments="x:String" x:Key="ModifiedBy" />
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
-              <uix:NClick ClickType="Single" DisplayName="Click 'Execute Query'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
+              <uix:NClick ClickType="Single" DisplayName="Click 'Execute Query'" sap:VirtualizedContainerService.HintSize="337.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="fozQi1IoRUudcGiZhHZufw" DesignTimeRectangle="234, 70, 26, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Execute Query'" FullSelectorArgument="&lt;java cls='ToolBar' idx='3' role='tool bar' /&gt;&lt;java name='Execute Query' role='push button' /&gt;" FuzzySelectorArgument="&lt;java cls='ToolBar' role='tool bar' /&gt;&lt;java name='Execute Query' role='push button' check:text='Execute Query' /&gt;" Guid="a6305e5f-c9f9-4ccc-9ca5-672a8be5addf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEESURBVEhL7ZLBEYIwEEW3J3pKM1aQsweqsANutmAJ3qOPzHd2AskIAh70z7xRlpCXXbC+79M3sOvtnr7BXzwhDkMKMY50Ibygzn1iscuYTZ6v0RRLiEQoOgjrSBdt5F15VVwT+hprJCJL5FWxHykphZLuItY4JdJhfN0LS1oHaIrVnbrWAXznbE6WSGHxqFvxUjK3r1g8amJGp1PyvSzNtQ1HTSzk31bic+1qsZf6UXvx8KxxnTsM4zVZLQYvh7mOJSz/fyQGhByATYDURo1U7/pjcQkpxeO4nZQcIi6l5BDxXA7qGEn+qJTdxLzXFpuLQZu+w9zzsEq8BT8oPp0v6Xgu6QEW9gHRcNYoxwAAAABJRU5ErkJggg==" InformativeScreenshot="c5cd629083a1d2996b23dda7295e90de.png" Reference="QjZO42r3LEqWki_GAjfYLg/2rMYQINZuk-aVoE3K1VbnQ" ScopeSelectorArgument="&lt;wnd app='java*.exe' cls='SunAwtFrame' title='Oracle Fusion Middleware Forms Services' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
                 </uix:NClick.Target>
@@ -171,76 +169,74 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="545.6,1860.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="496,2068" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
-        <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="Course" />
+        <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="ActualCourse" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\GetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="387.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ReusableFlows\GetCourseInfo.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReusableFlows\GetCourseInfo.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="337.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ReusableFlows\GetCourseInfo.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="Course">
-            <VisualBasicReference x:TypeArguments="scg:Dictionary(x:String, x:String)" ExpressionText="Course" />
-          </OutArgument>
+          <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="Course">[ActualCourse]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("CourseNo")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("CourseNo")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("CourseNo")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("CourseNo")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_7" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_7" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("Description")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("Description")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("Description")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("Description")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_6" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_6" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("Cost")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("Cost")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("Cost")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("Cost")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_5" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_5" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("CreatedBy")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("CreatedBy")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("CreatedBy")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("CreatedBy")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_4" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_4" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("CreatedDate")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("CreatedDate")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("CreatedDate")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("CreatedDate")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_3" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_3" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("ModifiedBy")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("ModifiedBy")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("ModifiedBy")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("ModifiedBy")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="387.2,193.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="337.6,223.2" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Object">[courseTestData("ModifiedDate")]</InArgument>
+          <InArgument x:TypeArguments="x:Object">[course("ModifiedDate")]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
-          <InArgument x:TypeArguments="x:String">[Course("ModifiedDate")]</InArgument>
+          <InArgument x:TypeArguments="x:String">[ActualCourse("ModifiedDate")]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
     </Sequence>

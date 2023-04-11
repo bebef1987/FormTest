@@ -104,7 +104,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Courses" sap:VirtualizedContainerService.HintSize="483.2,2175.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="065a9148-5a10-4274-8049-7ec9213aa604" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Courses" sap:VirtualizedContainerService.HintSize="483.2,2175.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="065a9148-5a10-4274-8049-7ec9213aa604" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

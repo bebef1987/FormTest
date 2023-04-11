@@ -7,6 +7,10 @@
     {
       "filePath": ".variations\\TestData_Login.json",
       "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\Course.json",
+      "dataVariationType": "TestDataQueue"
     }
   ]
 }
